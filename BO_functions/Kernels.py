@@ -1,0 +1,8 @@
+from gauche.kernels.fingerprint_kernels.tanimoto_kernel import TanimotoKernel
+from gauche.kernels.fingerprint_kernels.dice_kernel import DiceKernel
+from gauche.kernels.fingerprint_kernels.forbes_kernel import ForbesKernel
+from gauche.kernels.fingerprint_kernels.inner_product_kernel import InnerProductKernel
+from gauche.kernels.fingerprint_kernels.minmax_kernel import MinMaxKernel
+from gauche.kernels.fingerprint_kernels.sogenfrei_kernel import SogenfreiKernel
+
+from gpytorch.kernels import RBFKernel, MaternKernel, LinearKernel, RQKernel
